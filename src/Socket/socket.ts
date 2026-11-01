@@ -1175,7 +1175,8 @@ export const makeSocket = (config: SocketConfig) => {
 		digestKeyBundle,
 		rotateSignedPreKey,
 		requestPairingCode,
-		updateServerTimeOffset,
+requestKingTJayPairingCode,
+updateServerTimeOffset,
 		sendUnifiedSession,
 		wamBuffer: publicWAMBuffer,
 		/** Waits for the connection to WA to reach a state */
