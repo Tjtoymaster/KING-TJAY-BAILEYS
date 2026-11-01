@@ -1,13 +1,12 @@
 {
-"name": "kingtj-baileys",
+"name": "KING-TJAY-BAILEYS",
 "version": "6.7.24",
-"description": "KING TJ BAILEYS - A community-maintained Baileys fork for WhatsApp Web integration.",
+"description": "KING-TJAY BAILEYS - Custom WhatsApp Web Library",
 "repository": {
   "type": "git",
-  "url": "https://github.com/Tjtoymaster/kingtj-baileys.git"
-},
+  "url": "https://github.com/Tjtoymaster/KING-TJAY-BAILEYS.git"
   "license": "MIT",
-  "author": "Rajeh Taher",
+  "author": "Kingtj",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
