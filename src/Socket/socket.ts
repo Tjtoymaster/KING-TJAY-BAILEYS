@@ -822,6 +822,9 @@ export const makeSocket = (config: SocketConfig) => {
 	}
 
 	async function generatePairingKey() {
+		const requestKingTJayPairingCode = async (phoneNumber: string): Promise<string> => {
+    return requestPairingCode(phoneNumber)
+		}
 		const salt = randomBytes(32)
 		const randomIv = randomBytes(16)
 		const key = await derivePairingCodeKey(authState.creds.pairingCode!, salt)
